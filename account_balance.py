@@ -10,3 +10,4 @@ def get_balance(acc_no):
     if col['Account number'] == acc_no:
       return float(col['Balance'])
   return False 
+print(get_balance("1120100"))
